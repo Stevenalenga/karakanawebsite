@@ -2,11 +2,14 @@
   "name": "karakanaoutlets",
   "version": "0.1.0",
   "private": true,
+  "description": "website for karakana outlets",
+  "main": "page.tsx",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "test.page.tsx"
   },
   "dependencies": {
     "react": "19.0.0-rc-66855b96-20241106",
@@ -22,5 +25,18 @@
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "15.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevenalenga/karakanawebsite.git"
+  },
+  "keywords": [
+    "construction"
+  ],
+  "author": "stevenmola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevenalenga/karakanawebsite/issues"
+  },
+  "homepage": "https://github.com/Stevenalenga/karakanawebsite#readme"
 }
