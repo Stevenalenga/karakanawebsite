@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
+import Button from '../components/Button'
 
 export default function Home() {
   return (
@@ -23,9 +23,9 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Your Trusted Partner in General Supplies and Construction
             </h1>
-            <Link href="/Contact%20Us" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <Button href="/contact-us">
               Contact Us
-            </Link>
+            </Button>
           </div>
         </div>
       </section>
