@@ -1,15 +1,11 @@
 import Image from 'next/image'
-import Link from 'next/link'
+
 import Button from '../components/Button'
 
 export default function Home() {
   return (
-    <div>
-    
+    <div> 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
-     
       <section className="relative h-[600px]">
         <Image
           src="/construction-banner.jpg"

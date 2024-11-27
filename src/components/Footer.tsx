@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="w-full md:w-1/3">
             <h4 className="text-md md:text-lg font-semibold mb-2">Quick Links</h4>
             <ul>
-              {['Home', 'About Us', 'Services', 'Management', 'Clients', 'Contact'].map((item) => (
+              {['Home', 'About Us', 'Services', 'Management', 'Clients', 'Contact Us'].map((item) => (
                 <li key={item} className="mb-1">
                   <Link href={`/${item.toLowerCase().replace(' ', '-')}`} className="text-sm md:text-base hover:text-blue-300">
                     {item}
@@ -33,8 +33,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
-
+export default Footer;
