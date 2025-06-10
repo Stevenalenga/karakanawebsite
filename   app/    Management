@@ -1,0 +1,12 @@
+import React from 'react';
+
+const ManagementPage = () => {
+    return (
+        <div>
+            <h1>Management</h1>
+            <p>Welcome to the Management page.</p>
+        </div>
+    );
+};
+
+export default ManagementPage;

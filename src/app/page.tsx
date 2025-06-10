@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
             <div className="text-center">
               <h3 className="text-xl font-semibold mb-2 text-black">Our Mission</h3>
-              <p className="text-black">To provide high-quality supplies and construction services that exceed our clients' expectations.</p>
+              <p className="text-black">To provide high-quality supplies and construction services that exceed our clients&apos; expectations.</p>
             </div>
             <div className="text-center">
               <h3 className="text-xl font-semibold mb-2 text-black">Our Vision</h3>
